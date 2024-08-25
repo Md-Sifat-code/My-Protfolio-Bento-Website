@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d7ab7394cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sifat</title>
+</head>
+
+<body>
+    <section class="roboto">
+        <div class="container mx-auto">
+            <div class="navbar ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="text-white"
+                                viewBox="0 0 24 24" stroke="white">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li class="text-white"><a>Home</a></li>
+                            <li>
+                                <a class="text-stone-500">About</a>
+                                <ul class="p-2">
+                                    <li><a>University Part</a></li>
+                                    <li><a>Working life</a></li>
+                                </ul>
+                            </li>
+                            <li class="text-stone-500"><a>Works</a></li>
+                            <li class="text-stone-500"><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="cursor-pointer text-xl text-white sm:text-3xl">HEX-Sifat</a>
+                </div>
+                <div class="navbar-center hidden lg:flex w-auto">
+                    <ul class="menu flex flex-row gap-8 px-1">
+                        <li class="text-white text-xl px-3"><a>Home</a></li>
+                        <li>
+                            <details>
+                                <summary class="text-stone-500 hover:text-white text-xl px-3">About</summary>
+                                <ul class="p-2">
+                                    <li><a>University Part</a></li>
+                                    <li><a>Working life</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="text-stone-500 hover:text-white text-xl px-3"><a>Works</a></li>
+                        <li class="text-stone-500 hover:text-white text-xl px-3"><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a
+                        class="btn btn-primary btn-active bg-[#323232] border-none text-white font-bold px-9 text-xl hover:bg-white hover:text-black rounded-xl">Let's
+                        Talk</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section part 1 -->
+    <section>
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 p-5 sm:p-0">
+            <!-- card-1 -->
+            <div
+                class="card card-side bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414]
+            shadow-xl mt-6 lg:mt-12 w-full border mb-6 rounded-[42px] border-stone-500 flex flex-col lg:flex-row justify-center items-center">
+                <figure class="p-6 sm:p-8 w-1/2  ">
+                    <img class="rounded-tl-[42px] rounded-br-[42px]" src="./images/bg.png" alt="Movie" />
+                </figure>
+                <div class=" flex justify-center flex-col ">
+                    <h2 class="card-title text-stone-400 ">A WEB DEVELPOER</h2>
+                    <p class="text-white text-3xl lg:text-6xl">Md<br>Sifat.</p>
+                    <p class="text-stone-500 mt-4">I am a MERN web Developer based <br>in Bangladesh</p>
+                    <div class="card-actions justify-end sm:mt-14">
+                        <button class="btn btn-ghost"><i
+                                class="fa-solid fa-arrow-right-to-bracket text-stone-600 text-3xl hover:text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="grid grid-cols-1 lg:grid-cols-2  mt-2 sm:mt-6 gap-6 mb-6">
+                <div class="card bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414]
+                w-auto mt-6 shadow-xl lg:col-span-2 border border-stone-500 flex justify-center h-[50px] sm:h-auto ">
+                    <!--  -->
+                    <div class="overflow-hidden whitespace-nowrap w-full">
+                        <div class="inline-block animate-marquee">
+                            <p class="text-white text-xl">HI, I am <span class="font-bold">Md Sifat</span> !. Looking
+                                forward to work with you</p>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+                <!-- card-ex -->
+                <div class="card bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414]
+                w-auto shadow-xl border border-stone-500 flex flex-col gap-10">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/signature.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-start text-center flex flex-row justify-between">
+                        <div>
+                            <h2 class="card-title text-stone-500">MORE ABOUT ME</h2>
+                            <h1 class="text-start text-3xl text-white mt-6">Credentials</h1>
+                        </div>
+                        <div class="card-actions justify-end mt-5">
+                            <button class="btn btn-ghost"><i
+                                    class="fa-solid fa-arrow-right-to-bracket text-stone-600 text-3xl hover:text-white"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- card-ex -->
+                <div class="card bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414]
+                w-auto shadow-xl border border-stone-500 flex flex-col gap-10">
+                    <figure class="px-10 pt-10">
+                        <img class="w-1/2" src="./images/pro.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-start text-center flex flex-row justify-between">
+                        <div>
+                            <h2 class="card-title text-stone-500">SHOWCASE</h2>
+                            <h1 class="text-start text-3xl text-white mt-6">Projects</h1>
+                        </div>
+                        <div class="card-actions justify-end mt-5">
+                            <button class="btn btn-ghost"><i
+                                    class="fa-solid fa-arrow-right-to-bracket text-stone-600 text-3xl hover:text-white"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- hero section part -2 -->
+    <section>
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-6 p-5 lg:p-0">
+            <!-- card-1 -->
+            <div class="card bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414]
+                 w-auto shadow-xl border border-stone-500 flex flex-col gap-10 mb-6">
+                <figure class="px-10 pt-10">
+                    <img src="./images/gfonts.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-start text-center flex flex-row justify-between">
+                    <div>
+                        <h2 class="card-title text-stone-500">BLOG</h2>
+                        <h1 class="text-start text-3xl text-white mt-6">GFonts</h1>
+                    </div>
+                    <div class="card-actions justify-end mt-5">
+                        <button class="btn btn-ghost"><i
+                                class="fa-solid fa-arrow-right-to-bracket text-stone-600 text-3xl hover:text-white"></i></button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414]
+            w-auto shadow-xl border border-stone-500 flex flex-col gap-10 lg:col-span-2 mb-6">
+                <div class="px-10 pt-10 grid grid-cols-4">
+                    <img src="data:image/png;base64,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">
+                    <img src="data:image/png;base64,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">
+                    <img src="data:image/png;base64,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">
+                    <img src="data:image/png;base64,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">
+                </div>
+                <div class="card-body items-start text-center flex flex-row justify-between">
+                    <div>
+                        <h2 class="card-title text-stone-500">SPECIALIZATION</h2>
+                        <h1 class="text-start text-3xl text-white mt-6">Service Offering</h1>
+                    </div>
+                    <div class="card-actions justify-end mt-5">
+                        <button class="btn btn-ghost"><i
+                                class="fa-solid fa-arrow-right-to-bracket text-stone-600 text-3xl hover:text-white"></i></button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- card-3 -->
+            <div class="card bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414]
+            w-auto shadow-xl border border-stone-500 flex flex-col gap-10 mb-6">
+                <div class="px-10 pt-10">
+                    <div class="flex flex-row p-8 border rounded-[42px] justify-between bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414] border-stone-500">
+                        <div class="p-4 border rounded-[42px] hover:bg-white">
+                            <a href="https://www.facebook.com/people/MD-Sifat/pfbid0d2pfRierZTxK6DzxAT5SXZ3tPUwvcXyfR5cbNcCs5vrarHG7vVaKcQSucW4P4wX3l/?mibextid=ZbWKwL"><img class="bg-black" width="50" height="50" src="./images/icons8-facebook-50 (1).png" alt="facebook-new"/></a>
+                        </div>
+                        <div  class="p-4 border rounded-[42px] hover:bg-white">
+                            <a href="https://www.linkedin.com/in/md-sifat-follow/"><img  class="bg-black" width="50" height="50" src="./images/icons8-linkedin-50.png" alt="facebook-new"/></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body items-start text-center flex flex-row justify-between">
+                    <div>
+                        <h2 class="card-title text-stone-500">STAY WITH ME</h2>
+                        <h1 class="text-start text-3xl text-white mt-6">Profiles</h1>
+                    </div>
+                    <div class="card-actions justify-end mt-5">
+                        <button class="btn btn-ghost"><i
+                                class="fa-solid fa-arrow-right-to-bracket text-stone-600 text-3xl hover:text-white"></i></button>
+                    </div>
+
+                </div>
+            </div>
+            <!--End  -->
+        </div>
+
+    </section>
+    <!-- hro sectiom part -3 -->
+     <section>
+        <div class="container mx-auto p-5 md:p-0">
+            <div>
+                <div class="stats shadow bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414] flex flex-col md:flex-row">
+                    <div class="stat">
+                      <div class="stat-figure text-primary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          class="inline-block h-8 w-8 stroke-current">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                      </div>
+                      <div class="stat-title text-stone-400">Exprience</div>
+                      <div class="stat-value text-white">1 YEAR+</div>
+                      <div class="stat-desc text-stone-400">Quality first</div>
+                    </div>
+                  
+                    <div class="stat">
+                      <div class="stat-figure text-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          class="inline-block h-8 w-8 stroke-current">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                      </div>
+                      <div class="stat-title text-stone-400">Total Clints</div>
+                      <div class="stat-value text-blue-500">102+</div>
+                      <div class="stat-desc text-stone-400">21% more than last month</div>
+                    </div>
+                  
+                    <div class="stat">
+                      <div class="stat-figure text-secondary">
+                        <div class="avatar online">
+                          <div class="w-16 rounded-full">
+                            <img src="./images/bg.png" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="stat-value text-white">150+</div>
+                      <div class="stat-title text-white">Projects done</div>
+                      <div class="stat-desc text-stone-400">18 tasks remaining</div>
+                    </div>
+                  </div>
+
+            </div>
+            <!-- part-2 -->
+
+        </div>
+     </section>
+    <!-- footer -->
+    
+    <footer class="footer footer-center bg-gradient-to-r from-[#1E1E1E] via-[#1B1B1B] to-[#141414] text-primary-content p-10 mt-12 ">
+        <aside>
+            <h1 class="text-3xl text-white">HEX-Sifat</h1>
+            <nav class="grid grid-flow-col gap-6 mt-4">
+                <a class="link link-hover">HOME</a>
+                <a class="link link-hover">ABOUT</a>
+                <a class="link link-hover">WORKS</a>
+                <a class="link link-hover">CONTRACT</a>
+            </nav>
+        </aside>
+        <aside>
+            <p class="text-white">Copyright © 26 August ,2024 - All right reserved by <span class="font-extrabold">Md Sifat</span></p>
+          </aside>
+      </footer>
+</body>
+
+</html>
